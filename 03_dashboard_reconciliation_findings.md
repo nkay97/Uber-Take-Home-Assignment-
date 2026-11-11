@@ -88,10 +88,3 @@ The key differences identified are:
 Based on these findings, the dashboards seem to represent different views of the trip data rather than simply having calculation errors. However, the complete set of Dashboard B filtering rules still needs to be validated.
 
 **Recommendation:** Agree on one set of metric definitions, trip eligibility rules, and weekly assignment logic for operational reporting. If both definitions are useful, give them separate metric names and explain the difference in the dashboards. This would help stakeholders compare results without confusing differences in logic with changes in business performance.
-
-## Assumptions and Limitations
-
-- The reported counts and percentage differences are based on the initial data period reviewed.
-- The missing-dropoff filter is an identified possible contributor to the trip-volume gap, but it has not been shown to explain the entire difference.
-- This comparison identifies differences in the dashboard calculations; it does not independently confirm every rule used in Dashboard B.
-- Findings are limited to the four selected Chicago community areas in the supplied data and should not be treated as citywide results.
