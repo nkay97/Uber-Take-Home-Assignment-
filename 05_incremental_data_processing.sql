@@ -39,7 +39,7 @@ SELECT
 FROM combined_trips
 GROUP BY trip_id
 HAVING COUNT(*) > 1
-ORDER BY occurrences DESC;
+ORDER BY 2 DESC;
 
 ---------- Identifying Overlapping Trip IDs Between Initial and Incremental Datasets ----------
 -- Identify trip IDs present in both datasets to prevent double-counting
