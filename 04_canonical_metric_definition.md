@@ -83,3 +83,20 @@ ORDER BY pickup_community_area, period;
 ```
 
 <img width="764" height="374" alt="Screenshot 2026-11-11 185813" src="https://github.com/user-attachments/assets/16db130b-ee2a-4053-b014-451ce476e278" />
+
+### Key Findings 
+
+1. Community Area 24 had the highest trip volume in both periods.
+   It averaged about 79.7K weekly trips in the historical period and 76.1K weekly trips in the latest period, making it the busiest of the four areas.
+
+2. Community Area 56 had the highest average trip price by a large margin.
+   Average trip price was $43.13 in the historical period and $42.67 in the latest period, more than double the average price observed in some other community areas.
+
+3. Trip volumes were relatively stable between the historical and latest periods.
+   Average weekly trips changed only slightly across most areas. For example, Community Area 56 increased from 26.1K to 26.5K weekly trips, while Community Area   24 decreased from 79.7K to 76.1K.
+
+4. Community Area 41 had the highest shared-trip rate.
+   The historical shared-trip rate was 17.4%, significantly higher than the rates observed in the other community areas, which were generally below 8%.
+
+5. Average trip price remained largely unchanged between periods.
+   Across all four community areas, average trip prices in the latest period were very close to historical values, suggesting no major shift in rider fares or total trip costs during the comparison window.
