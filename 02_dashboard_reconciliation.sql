@@ -67,3 +67,6 @@ LEFT JOIN (
 ) b
 ON a.week_start = b.week_start AND a.pickup_community_area = b.pickup_community_area
 ORDER BY a.week_start, a.pickup_community_area;
+
+---- Supporting Workbook ---- 
+-- https://github.com/nkay97/Uber-Take-Home-Assignment-/blob/main/Metric%20Variance%20Analysis.xlsx
