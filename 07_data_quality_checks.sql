@@ -1,6 +1,6 @@
-## Data Quality Validation
+# Data Quality Validation
 
-### 1. Duplicate Trip ID Validation
+## 1. Duplicate Trip ID Validation
 
 **Purpose:** Check whether duplicate `trip_id` values remain after combining the initial and incremental datasets. Duplicate trips can inflate trip volume and affect other metrics.
 
@@ -15,13 +15,13 @@ SELECT
 FROM temp_trips_deduplicated;
 ```
 
-
-### 2. Timestamp and Price Validation
+## 2. Timestamp and Price Validation
 
 **Purpose:** Identify invalid timestamps that could affect completion-week reporting and missing or unusual prices that could affect Average Trip Price.
 
 ```sql
 -- Check 2: Timestamp and Price Validation
+
 SELECT
     COUNT(*) AS total_records,
 
@@ -53,3 +53,4 @@ SELECT
 
 FROM temp_trips_deduplicated;
 ```
+
