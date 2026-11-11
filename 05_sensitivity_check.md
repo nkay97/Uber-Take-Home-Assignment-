@@ -47,6 +47,7 @@ ORDER BY pickup_community_area, period;
 <img width="665" height="383" alt="Screenshot 2026-11-11 192223" src="https://github.com/user-attachments/assets/8a4ca2cd-7fa4-4e50-9f83-eb22b94e756d" /> 
 
 Sensitivity Check – Key Insights
+
 The sensitivity check looks at how average weekly trips change when trips with missing drop-off community areas are excluded.
 
 1. Community Area 56 has the highest impact. Average weekly trips drop by 31.88% in the Historical period and 29.69% in the Latest period. This shows that a large share of trips in this area have missing drop-off information.
