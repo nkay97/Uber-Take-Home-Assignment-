@@ -25,7 +25,7 @@ ORDER BY 1, 2;
 -- Shared trip rate is calculated using shared_trip_match instead of shared_trip_authorized.
 
 SELECT
-    DATE_TRUNC('week', trip_start_timestamp)::DATE AS week_start,
+    DATE_TRUNC('week', trip_end_timestamp)::DATE AS week_start,
     pickup_community_area,
     COUNT(DISTINCT trip_id) AS trip_count,
     ROUND(AVG(trip_total)::NUMERIC, 2) AS avg_trip_price,
