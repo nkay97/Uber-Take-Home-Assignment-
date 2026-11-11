@@ -84,6 +84,30 @@ ORDER BY pickup_community_area, period;
 
 <img width="764" height="374" alt="Screenshot 2026-11-11 185813" src="https://github.com/user-attachments/assets/16db130b-ee2a-4053-b014-451ce476e278" />
 
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/a13f9756-77b2-4f11-a7ad-1293e31a0506" alt="Average Weekly Trips" width="100%">
+    </td>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/9d18bab0-351e-4b88-bad7-679ad6095a8c" alt="Shared Trip Rate" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Average Weekly Trips</b></td>
+    <td align="center"><b>Shared Trip Rate</b></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github.com/user-attachments/assets/dbb0c960-b5eb-44a1-b8a8-5ff6812576cb" alt="Average Trip Price" width="50%">
+      <p><b>Average Trip Price</b></p>
+    </td>
+  </tr>
+</table>
+
+
+
 ### Key Findings 
 
 1. Community Area 24 had the highest trip volume in both periods.
