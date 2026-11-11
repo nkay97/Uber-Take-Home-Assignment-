@@ -81,3 +81,5 @@ SELECT
 FROM period_metrics
 ORDER BY pickup_community_area, period;
 ```
+
+<img width="764" height="374" alt="Screenshot 2026-11-11 185813" src="https://github.com/user-attachments/assets/16db130b-ee2a-4053-b014-451ce476e278" />
