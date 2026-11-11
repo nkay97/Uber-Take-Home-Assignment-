@@ -24,6 +24,9 @@ FROM temp_trips_deduplicated;
 
 **Why it matters:** Duplicate trips can inflate Average Weekly Trips and distort Average Trip Price and Shared Trip Rate.
 
+<img width="623" height="273" alt="Screenshot 2026-11-11 200729" src="https://github.com/user-attachments/assets/9360d72e-3462-4c3b-8338-ef22e11b401d" />
+
+
 ## Test 2: Trip Timestamp Validity
 
 **Objective:** Ensure trips have valid timestamps for completion-week reporting.
@@ -59,4 +62,6 @@ FROM temp_trips_deduplicated;
 **Expected result:** `PASS` if the trusted dataset contains only trips with valid timestamps.
 
 **Interpretation:** If this test fails on the raw deduplicated dataset, it does not necessarily mean the canonical metrics are wrong. Invalid trips can be excluded through the eligibility rules, with the affected count documented.
+
+<img width="640" height="296" alt="Screenshot 2026-11-11 200851" src="https://github.com/user-attachments/assets/cb702aac-5963-4aa4-b9ef-4cdfd37bb626" />
 
