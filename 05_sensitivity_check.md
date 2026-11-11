@@ -1,4 +1,4 @@
-'''
+```sql
 WITH eligible AS (
     SELECT
         trip_id,
@@ -42,7 +42,7 @@ SELECT
     ROUND(100.0 * (alternative_volume - canonical_volume)/ NULLIF(canonical_volume, 0), 2) AS sensitivity_pct
 FROM trip_counts
 ORDER BY pickup_community_area, period;
-''' 
+```
 
 <img width="665" height="383" alt="Screenshot 2026-11-11 192223" src="https://github.com/user-attachments/assets/8a4ca2cd-7fa4-4e50-9f83-eb22b94e756d" /> 
 
