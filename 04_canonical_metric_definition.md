@@ -95,8 +95,14 @@ ORDER BY pickup_community_area, period;
 3. Trip volumes were relatively stable between the historical and latest periods.
    Average weekly trips changed only slightly across most areas. For example, Community Area 56 increased from 26.1K to 26.5K weekly trips, while Community Area   24 decreased from 79.7K to 76.1K.
 
-4. Community Area 41 had the highest shared-trip rate.
+5. Community Area 41 had the highest shared-trip rate.
    The historical shared-trip rate was 17.4%, significantly higher than the rates observed in the other community areas, which were generally below 8%.
 
-5. Average trip price remained largely unchanged between periods.
+6. Average trip price remained largely unchanged between periods.
    Across all four community areas, average trip prices in the latest period were very close to historical values, suggesting no major shift in rider fares or total trip costs during the comparison window.
+
+### Recommendation for Operations Manager 
+
+I recommend using a single standardized dashboard with consistent definitions for Average Weekly Trips, Average Trip Price, and Shared Trip Rate.
+
+The analysis shows that differences in trip eligibility rules and metric calculations can lead to different interpretations of performance. Standardizing these measures will help Operations track demand, pricing, and shared-trip activity more reliably across community areas and make decisions based on consistent data.
