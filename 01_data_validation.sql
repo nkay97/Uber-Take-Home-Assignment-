@@ -61,13 +61,9 @@ FROM raw.trips_initial;
 -- Cross-week trips are important because they can affect weekly reporting.
 
 SELECT
-    -- Trips where the end time is earlier than the start time
     SUM(CASE WHEN trip_end_timestamp < trip_start_timestamp THEN 1 ELSE 0 END) AS end_before_start,
-    -- Trips where the recorded duration is zero seconds
     SUM(CASE WHEN trip_seconds = 0 THEN 1 ELSE 0 END) AS zero_duration_trips,
-    -- Trips that start in one week and end in another week
-    SUM(CASE WHEN DATE_TRUNC('week', trip_start_timestamp) <> DATE_TRUNC('week', trip_end_timestamp) THEN 1 ELSE 0
-    END) AS cross_week_trips
+    SUM(CASE WHEN DATE_TRUNC('week', trip_start_timestamp) <> DATE_TRUNC('week', trip_end_timestamp) THEN 1 ELSE 0 END) AS cross_week_trips
 FROM raw.trips_initial;
 
 
