@@ -1,5 +1,11 @@
 ## Canonical Metric Definitions
 
+Note : Considering the time constraints, I decided not to use the provided historical baseline for the comparison. The historical baseline was available at the month × day of week × hour × pickup community area level, which would have required aggregating the initial and incremental datasets to the same granularity for a meaningful comparison.
+
+Additionally, comparing March–April 2025 data against January 2025 could be misleading due to potential seasonal differences.
+
+Instead, I used the six weeks of initial data as the historical period and compared them against the latest two weeks. This allowed me to make a more relevant comparison while accounting for the difference in reporting duration. 
+
 To ensure consistent reporting and comparison between the historical and latest periods, the following three canonical metrics have been defined.
 
 The historical dataset covers **6 weeks (March 3 – April 13, 2025)**, while the latest dataset covers **2 weeks (April 14 – April 27, 2025)**.
