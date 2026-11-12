@@ -35,13 +35,11 @@ See [dashboard reconciliation findings](03_dashboard_reconciliation_findings.md)
 
 ## Canonical metrics
 
-Considering the time constraints, I decided not to use the provided historical baseline for the comparison. The historical baseline was available at the month × day of week × hour × pickup community area level, which would have required aggregating the initial and incremental datasets to the same granularity for a meaningful comparison.
+Note : Considering the time constraints, I decided not to use the provided historical baseline for the comparison. The historical baseline was available at the month × day of week × hour × pickup community area level, which would have required aggregating the initial and incremental datasets to the same granularity for a meaningful comparison.
 
 Additionally, comparing March–April 2025 data against January 2025 could be misleading due to potential seasonal differences.
 
 Instead, I used the six weeks of initial data as the historical period and compared them against the latest two weeks. This allowed me to make a more relevant comparison while accounting for the difference in reporting duration. 
-
-I used the following definitions for the historical-versus-latest comparison:
 
 | Metric | Definition |
 | --- | --- |
