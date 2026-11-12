@@ -17,7 +17,7 @@ Since the reporting periods have different durations, **Average Weekly Trips is 
 - **Reporting granularity:** Reporting period × Pickup Community Area.
 - **Trip completion:** Trips are attributed to the reporting period based on `trip_end_timestamp`.
 - **Geographic scope:** Includes trips originating from the four selected Chicago pickup community areas (24, 41, 43, and 56).
-- **Dropoff location:** Trips with NULL `dropoff_community_area` are included in all three metrics. These may include trips ending outside Chicago or trips with unavailable dropoff information. A NULL dropoff area alone does not confirm that a trip ended outside Chicago.
+- **Dropoff location:** Trips with NULL `dropoff_community_area` are included in all three metrics. These may include trips ending outside Chicago or trips with unavailable dropoff information.
 - **Duplicate handling:** Only one record per `trip_id` is retained after deduplication.
 - **Trip validity:** Trips must have a valid trip ID, non-NULL start and end timestamps, and an end timestamp greater than or equal to the start timestamp.
 - **Shared-trip NULL handling:** Trips with NULL `shared_trip_match` remain in the denominator but are not counted as confirmed shared matches.
