@@ -85,6 +85,14 @@ ORDER BY pickup_community_area, period;
 <img width="764" height="374" alt="Screenshot 2026-11-11 185813" src="https://github.com/user-attachments/assets/16db130b-ee2a-4053-b014-451ce476e278" />
 
 
+| Pickup Area | Avg Weekly Trips Change | Avg Trip Price Change | Shared Trip Rate Change |
+|-------------|------------------------:|----------------------:|-------------------------|
+| 24          | -4.5%                   | -2.0%                 | 1.72% → 1.71%           |
+| 41          | -10.3%                  | +19.6%                | 17.41% → 2.22%          |
+| 43          | -7.2%                   | -1.1%                 | 7.76% → 7.10%           |
+| 56          | +1.4%                   | -1.1%                 | 0.73% → 0.70%           |
+
+
 <table>
   <tr>
     <td width="50%">
